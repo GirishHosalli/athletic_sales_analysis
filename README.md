@@ -12,7 +12,7 @@ This program is used to analyze sales data to gain insights into which US cities
 
 ### Region / Retailer who Sold the Most Products / Sales Amount
 - Use either the ```groupby``` or ```pivot_table``` function to create a multi-index DataFrame  
-- ```agg``` function is used to aggregate data for the required data columns
+- ```agg``` or ```aggfunc`` function is used to aggregate data for the required data columns
 ![alt text](image-8.png)
 
 ![alt text](image-9.png)
@@ -35,7 +35,7 @@ This program is used to analyze sales data to gain insights into which US cities
 - ```resample``` technique is used on the pivot table to create daily/weekly bins, and get the total sales for each day or week.
 ![alt text](image-14.png)
 
-### Results:
+## Results:
 
 ### Top five regions that had the most products
 ![alt text](image.png)
